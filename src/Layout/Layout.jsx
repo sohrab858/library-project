@@ -1,10 +1,15 @@
+import react from 'react';
+import styles from "./Layout.module.css";
 
 function Layout({children}) {
   return (
     <div>
-      <header></header>
+      <header className={styles.header}>
+        <h1>Book App</h1>
+        <p><a href="https://www.varzesh3.com">vaarzesh3</a> | react.js Full Course</p>
+      </header>
        {children}
-      <footer></footer>
+      <footer className={styles.footer}><p>Debelope By Sohrab</p></footer>
     </div>
   )
 } 
