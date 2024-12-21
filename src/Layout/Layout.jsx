@@ -9,7 +9,7 @@ function Layout({children}) {
         <p><a href="https://www.varzesh3.com">vaarzesh3</a> | react.js Full Course</p>
       </header>
        {children}
-      <footer className={styles.footer}><p>Debelope By Sohrab</p></footer>
+      <footer className={styles.footer}><p>Develope By Sohrab</p></footer>
     </div>
   )
 } 
